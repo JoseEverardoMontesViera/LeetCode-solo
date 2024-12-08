@@ -19,6 +19,3 @@ class Solution:
                     differentsDer.append(prefix[i])
             arry.append(int(len(differentsIzq)-len(differentsDer))) 
         return arry
-solucion = Solution()
-nums = [2,5,9,8,2]
-print(solucion.distinctDifferenceArray(nums))
